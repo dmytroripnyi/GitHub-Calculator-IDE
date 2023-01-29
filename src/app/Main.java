@@ -2,18 +2,25 @@ package app;
 
 public class Main {
 
+    static int a;
+    static int b;
+    static int c;
+    static int d;
+    static int s;
+    static int v;
+
     public static void main(String[] args) {
         System.out.println("My app for Users!");
         System.out.println("Version 1.0");
-        int a = 8;
-        int b = 2;
-        int c = add(a, b);
+        a = 8;
+        b = 2;
+        c = add(a, b);
         System.out.println(c);
-        int d = multiply(a, b);
+        d = multiply(a, b);
         System.out.println(d);
-        int s = subtraction(a, b);
+        s = subtraction(a, b);
         System.out.println(s);
-        int v = division(a, b);
+        v = division(a, b);
         System.out.println(v);
     }
 
